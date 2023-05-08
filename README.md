@@ -2,7 +2,7 @@
 
 ### Description
 
-This repository contains implementations of data structures and algorithms in Rust. My goal is to implementation of all popular data structures and algorithms in Rust. 
+This repository contains implementations of data structures and algorithms in Rust step by step. The goal is to learn Rust and refresh my knowledge of data structures and algorithms.
 
 ### Data structures
   [x] [Stack](#stack-lifo) \
@@ -14,7 +14,7 @@ This repository contains implementations of data structures and algorithms in Ru
   [ ] Hashing \
   [ ] Heap \
   [ ] Binary Search \
-  [ ] Fibonacci \
+  [ ] Fibonacci
 
 
 ## Stack (LIFO)
