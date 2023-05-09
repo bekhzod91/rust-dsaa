@@ -1,4 +1,4 @@
-pub fn binary_search<T: std::cmp::PartialOrd>(arr: &Vec<T>, el: T) -> Option<i32> {
+pub fn binary_search<T: std::cmp::PartialOrd>(arr: &Vec<T>, el: T) -> Option<usize> {
     if arr.is_empty() {
         return None;
     }
@@ -48,6 +48,7 @@ mod tests {
         assert_eq!(binary_search(&array, 11), None); 
     }
 
+    #[test]
     fn test_binary_search_case_1() {
         let array: Vec<i32> = vec![10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
@@ -65,6 +66,7 @@ mod tests {
         assert_eq!(binary_search(&array, 120), None); 
     }
 
+    #[test]
     fn test_binary_search_with_duplicates() {
         let array: Vec<i32> = vec![0, 1, 2, 3, 4, 5, 6, 7, 7, 8];
 
