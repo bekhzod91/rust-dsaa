@@ -13,7 +13,7 @@ This repository contains implementations of data structures and algorithms in Ru
   [ ] Graph \
   [ ] Hashing \
   [ ] Heap \
-  [ ] Binary Search \
+  [x] Binary Search \
   [ ] Fibonacci
 
 
@@ -22,4 +22,7 @@ This repository contains implementations of data structures and algorithms in Ru
 [src](src/stack.rs) \
 Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
+## Binary Search
 
+[src](src/binary_search.rs)\
+Binary Search is a searching algorithm for finding an element's position in a sorted array. In this approach, the element is always searched in the middle of a portion of an array.
