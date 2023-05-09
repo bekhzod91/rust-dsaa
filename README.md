@@ -13,7 +13,7 @@ This repository contains implementations of data structures and algorithms in Ru
   [ ] Graph \
   [ ] Hashing \
   [ ] Heap \
-  [x] Binary Search \
+  [x] [Binary Search](#binary-search) \
   [ ] Fibonacci
 
 
