@@ -1,19 +1,17 @@
 // Purpose: Stack implementation using linked list
 // Author: Bekhzod Tillakhanov
 
-
 // Node struct for linked list
 #[derive(Debug)]
 struct Node<T> {
     next: Option<Box<Node<T>>>,
-    value: T
+    value: T,
 }
-
 
 // Stack struct
 #[derive(Debug)]
 pub struct Stack<T> {
-    head: Option<Box<Node<T>>>
+    head: Option<Box<Node<T>>>,
 }
 
 impl<T: Clone> Stack<T> {
@@ -34,7 +32,7 @@ impl<T: Clone> Stack<T> {
     pub fn push(&mut self, value: T) {
         let node = Node {
             next: self.head.take(),
-            value
+            value,
         };
 
         self.head = Some(Box::new(node));
@@ -51,7 +49,7 @@ impl<T: Clone> Stack<T> {
     pub fn peek(&mut self) -> Option<T> {
         match &self.head {
             None => None,
-            Some(node) => Some(node.value.to_owned())
+            Some(node) => Some(node.value.to_owned()),
         }
     }
 
@@ -127,7 +125,7 @@ mod tests {
         let mut stack = Stack::new();
 
         assert_eq!(stack.is_empty(), true);
-        
+
         stack.push(1);
         assert_eq!(stack.is_empty(), false);
 

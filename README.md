@@ -13,6 +13,7 @@ This repository contains implementations of data structures and algorithms in Ru
   [ ] Graph \
   [ ] Hashing \
   [ ] Heap \
+  [x] [Bubble Sort](#bubble-sort) \
   [x] [Binary Search](#binary-search) \
   [ ] Fibonacci
 
@@ -26,3 +27,7 @@ Stack is a linear data structure which follows a particular order in which the o
 
 [src](src/binary_search.rs)\
 Binary Search is a searching algorithm for finding an element's position in a sorted array. In this approach, the element is always searched in the middle of a portion of an array.
+
+## Bubble Sort
+[src](src/bubble_sort.rs)\
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
