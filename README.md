@@ -15,18 +15,14 @@ This repository contains implementations of data structures and algorithms in Ru
   [ ] Heap \
   [x] [Bubble Sort](#bubble-sort) \
   [x] [Selection Sort](#selection-sort) \
+  [x] [Insertion Sort](#insertion-sort) \
   [x] [Binary Search](#binary-search) \
   [ ] Fibonacci
 
 
 ## Stack (LIFO)
-
 [src](src/stack.rs) \
 Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
-
-## Bubble Sort
-[src](src/bubble_sort.rs)\
-Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
 ## Bubble Sort
 [src](src/bubble_sort.rs)\
@@ -35,6 +31,11 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 ## Selection Sort
 [src](src/selection_sort.rs)\
 Selection sort is a sorting algorithm that selects the biggest element from an unsorted list in each iteration and places that element at the end of the sorted list.
+
+## Insertion Sort
+[src](src/insertion_sort.rs)\
+Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration. It has a sorted sublist and an unsorted sublist. Each iteration removes an element from the unsorted sublist, finds the location it belongs within the sorted sublist, and inserts it there. It repeats until no input elements remain.
+
 
 ## Binary Search
 [src](src/binary_search.rs)\
