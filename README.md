@@ -21,15 +21,15 @@ This repository contains implementations of data structures and algorithms in Ru
 
 
 ## Stack (LIFO)
-[src](src/stack.rs) \
+[src](src/stack.rs)\
 Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
 ## Queue
-[src](src/linkend_list.rs)
+[src](src/linkend_list.rs)\
 Queue based on doubly linked list. Queue is a linear data structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
 
 ## DoublyLinkendList
-[src](src/linkend_list.rs)
+[src](src/linkend_list.rs)\
 DoublyLinkedList is a linear data structure in which each node has a pointer to the previous and the next node in the list.
 
 ## Bubble Sort
