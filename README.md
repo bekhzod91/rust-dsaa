@@ -9,7 +9,7 @@ This repository contains implementations of data structures and algorithms in Ru
   [x] [Queue](#queue)\
   [x] [Doubly Linked List](#doublylinkendlist) \
   [ ] AVL Tree \
-  [ ] BTree \
+  [ ] Btree \
   [ ] Graph \
   [ ] Hashing \
   [ ] Heap \
@@ -17,7 +17,7 @@ This repository contains implementations of data structures and algorithms in Ru
   [x] [Selection Sort](#selection-sort) \
   [x] [Insertion Sort](#insertion-sort) \
   [x] [Binary Search](#binary-search) \
-  [ ] Fibonacci
+  [x] [Fibonacci](#fibonacci)
 
 
 ## Stack (LIFO)
@@ -49,3 +49,7 @@ Insertion sort is a sorting algorithm that places an unsorted element at its sui
 [src](src/binary_search.rs)\
 Binary Search is a searching algorithm for finding an element's position in a sorted array. In this approach, the element is always searched in the middle of a portion of an array.
 
+
+## Fiboncci
+[src](src/fibonacci.rs)\
+The Fibonacci algorithm is an algorithm for generating the Fibonacci sequence, a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1. The sequence begins: 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on. 
